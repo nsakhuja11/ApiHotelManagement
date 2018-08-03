@@ -13,9 +13,9 @@ namespace WebApplication1.Controllers
 
         static List<Hotel> _hotelList = new List<Hotel>()
         {
-            new Hotel(){Id=1,Name="Abc",Address="nnnn",RoomsAvailalbe=6,PINCode=241212},
-            new Hotel(){Id=2,Name="Xyz",Address="nnnn",RoomsAvailalbe=6,PINCode=241212},
-            new Hotel(){Id=3,Name="sad",Address="nnsfann",RoomsAvailalbe=7,PINCode=221212}
+            new Hotel(){Id=1,Name="Centrum",Address="Roorkee",RoomsAvailalbe=15,PINCode=247667},
+            new Hotel(){Id=2,Name="Royal Palace",Address="Roorkee",RoomsAvailalbe=6,PINCode=247667},
+            new Hotel(){Id=3,Name="Sagar Ratna",Address="Roorkee",RoomsAvailalbe=16,PINCode=247667}
         };
         [HttpGet]
         public Response GetAllHotels()
